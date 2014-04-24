@@ -13,35 +13,42 @@
 
 
 /*-----------------------new header------------------------------*/
-
-#test{
-	width: 72%;
-	list-style: none;
+#border{
+	border:#dad9d9 solid 2px;
+	width:72%;
 	margin: 0 auto;
-	margin-bottom: 4em;
-	margin-top: 1em;
-	font-size: medium;
+	border-radius: 4px;
+	padding: .5em 0 .5em 0;
+	background-color: #f0f0f0;
+}
+#test{
+	width: 100%;
+	list-style: none;
+	margin: 0;
+	font-size: 1.1em;
 }
 #test li{
 	list-style: none;
-	float: left;
+	display: inline-block;
 }
-#test #right{
-	float: right;
-	width: 100px;
+
+.right {
+	float:right;
 }
 
 #test li a{
 	display: block;
-	padding: 8px 15px;
+	padding: 8px 8px;
 	text-decoration: none;
-	font-weight: bold;
-	color: #7c7c7c;
+	color: #7d7d7d;
+	font-family: "trebuchet ms";
+	padding-left: 1em;
 	
 }
 #test li a:hover {		
-	background-color: white;
+	color: #2371a1;
 }
+
 /*--------------------------------------------------------------*/
 body{
 	padding:0; margin:0;
@@ -92,6 +99,7 @@ ul{
     padding-left: 3em;
     width: 100%;
     background-color: #69A0C8;
+    margin: 0 auto;
 }
 .nav li a{
 	background-color: #69A0C8;
